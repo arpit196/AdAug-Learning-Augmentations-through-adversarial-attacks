@@ -3,3 +3,6 @@ In this project, we propose an adversarial attack framework that learns an optim
 rotation augmentations outperform random rotations by 1.7% on CIFAR10 and by 1.2% on CIFAR100 while our differentiable patch gaussian augmentation outperforms random patch gaussian by almost 5% on CIFAR10 and 2% on SVHN. Moreover, we show that the models trained through our differentiable rotation outperform even more diverse augmentations such as RandAugment and AutoAugment in the case of CIFAR-10 and CIFAR-100 datasets.
 
 ![alt text](https://i.ibb.co/YkGz1j7/Differentiable-Rotation-1.jpg)
+
+
+![alt text](https://i.ibb.co/44Cb7QZ/Adv.png)
