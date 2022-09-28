@@ -5,5 +5,6 @@ In this project, we propose an adversarial attack framework that learns an optim
 
 
 ![alt text](https://i.ibb.co/PrnF6gY/Adversarial-Results.png)
+
 The above table shows compares the test accuracy of the different random, policy-based, and our differentiable learnable augmentation on the four datasets. The augmentations have been abbreviated as follows RR: Random Rotations, DR: Differentiable rotations, RPG: Random Patch Gaussian, DPG: Differentiable Patch Gaussian, RA:
 RandAugment, and AA: AutoAugment. The differentiable ones are the ones learnt by our adversarial attack policy
