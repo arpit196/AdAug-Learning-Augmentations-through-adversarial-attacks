@@ -4,4 +4,5 @@ rotation augmentations outperform random rotations by 1.7% on CIFAR10 and by 1.2
 
 ![alt text](https://i.ibb.co/YkGz1j7/Differentiable-Rotation-1.jpg)
 
-![alt text](https://i.ibb.co/PrnF6gY/Adversarial-Results.png)
+
+![alt text](https://i.ibb.co/44Cb7QZ/Adv.png)
