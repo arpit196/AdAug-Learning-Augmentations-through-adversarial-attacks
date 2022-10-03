@@ -7,6 +7,8 @@ where $\delta \theta$ is the amount by which the model perturbs the rotation ang
 
 ![alt text](https://i.ibb.co/YkGz1j7/Differentiable-Rotation-1.jpg)
 
+In this repository, we proposed two differentiable augmentations, viz, differentiable rotations which are as described above and differentiable patch gaussian which is a differentiable version of the patch gaussian augmentation. The patch gaussian augmentation adds random gaussian noise to a random square patch of the image. In case od our differentiable patch gaussian augmentation, the coordinates of the square patch are selected through the same adversarial attack framework as described above. Thus, the model learns the optimal coordinates in the image on which adding gaussian noise leads to the largest increase in the loss.
+
 
 ![alt text](https://i.ibb.co/PrnF6gY/Adversarial-Results.png)
 
