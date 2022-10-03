@@ -3,7 +3,7 @@ In this project, we proposed an adversarial attack framework that learns an opti
 
 $$\underset{\delta \theta}{max} \ \dfrac{1}{n} \ \sum_{i=1}^{n} L(A(X_{i},\theta + \delta \theta),y_{i})  \\ s.t. \ ||\delta \theta||_{2} < B.$$
 
-where $$\delta \theta$$ is the amount by which the model perturbs the rotation angle to maximize the loss, $$L(.)$$ is the cross-entropy loss function, and $$A(.)$$ is the rotation augmentation. $X$ and $y$ are the images and their respective labels in the batch.
+where $\delta \theta$ is the amount by which the model perturbs the rotation angle to maximize the loss, $L(.)$ is the cross-entropy loss function, and $A(.)$ is the rotation augmentation. $X$ and $y$ are the images and their respective labels in the batch.
 
 ![alt text](https://i.ibb.co/YkGz1j7/Differentiable-Rotation-1.jpg)
 
