@@ -17,6 +17,6 @@ RandAugment, and AA: AutoAugment. The differentiable ones are the ones learnt by
 
 To train a basic resnet model using rotation augmentation for example, run
 ```
-python train.py --augment=rotation
+python train.py --augmentation=rotation
 ```
 
