@@ -16,7 +16,7 @@ The above table compares the test accuracy of the different random, policy-based
 RandAugment, and AA: AutoAugment. The differentiable ones are the ones learnt by our adversarial attack policy.
 
 To train a basic resnet model using rotation augmentation for example, run
-'''
+```
 python train.py --augment=rotation
-'''
+```
 
