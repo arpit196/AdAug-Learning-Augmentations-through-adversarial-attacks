@@ -13,5 +13,10 @@ In this repository, we proposed two differentiable augmentations, viz, different
 ![alt text](https://i.ibb.co/PrnF6gY/Adversarial-Results.png)
 
 The above table compares the test accuracy of the different random, policy-based, and our differentiable learnable augmentation on the four datasets. The augmentations have been abbreviated as follows RR: Random Rotations, DR: Differentiable rotations, RPG: Random Patch Gaussian, DPG: Differentiable Patch Gaussian, RA:
-RandAugment, and AA: AutoAugment. The differentiable ones are the ones learnt by our adversarial attack policy
+RandAugment, and AA: AutoAugment. The differentiable ones are the ones learnt by our adversarial attack policy.
+
+To train a basic resnet model using rotation augmentation for example, run
+'''
+python train.py --augment=rotation
+'''
 
